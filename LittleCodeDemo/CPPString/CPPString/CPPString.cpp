@@ -39,6 +39,5 @@ int main() {
     // becasue std::string is just a copy so that's why 
     void PrintStringFunctions(const std::string& name);
 
-
     std::cin.get();
 }
