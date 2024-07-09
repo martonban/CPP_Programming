@@ -5,21 +5,19 @@
 
 /*
 *	This project is a little practice project. I need to run through the 
-*	basic concepts of C++. And I do a little practce functions/programs 
-*	to get the bare minimum. 
+*	basic concepts of C++. I used BroCode tutorial to get the basic understand
+*	of the C++ syntax.
+*	This file is just a collections of fuctions, to implement simple concepts.
 *
 */
 
-// Definations
+// Declarations
 void hypotenuse_calculator_func();
 void basic_calculator_func();
 void is_it_even_or_odd();
 void random_number_between(int max);
 void guess_game();
 
-int main() {
-	guess_game();
-}
 
 void hypotenuse_calculator_func() {
 	float a, b, c;
