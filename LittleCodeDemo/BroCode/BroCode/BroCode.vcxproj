@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="BroBank.cpp" />
     <ClCompile Include="BroCode.cpp" />
+    <ClCompile Include="BroRPS.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

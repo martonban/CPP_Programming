@@ -23,12 +23,14 @@ void withdraw();
 void balance();
 void quit_func();
 
+/*
 int main() {
 	while (!quit) {
 		menu();
 	}
 	std::cout << "By!";
 }
+*/
 
 void menu() {
 	print_menu();

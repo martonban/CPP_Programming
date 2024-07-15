@@ -21,5 +21,8 @@
     <ClCompile Include="BroBank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BroRPS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
