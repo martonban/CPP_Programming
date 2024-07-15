@@ -6,55 +6,89 @@
 
 /*
 *	This is a simple ATM app. Please note, this is not a full project just a 
-*	simple C++ app. I am not using any OOP or complex thing
+*	simple C++ app. Just a little practice.
 * 
 */
 
-// Declarations
-void bank_app();
-void sign_in();
-void card_ejected();
+// State varriables
+bool quit = false;
+int money = 0;
 
-// Global variables
-bool atm_is_on = true;
-bool loged_in = false;
-int sign_in_attempt = 0;
-int actions = 0;
 
-// "Data base"
+// Function Defenations 
+void menu();
+void print_menu();
+void deposit();
+void withdraw();
+void balance();
+void quit_func();
 
 int main() {
-	while(atm_is_on) {
-		bank_app();
+	while (!quit) {
+		menu();
 	}
-	std::cout << "Unfortunatly Bro ATM is under maintanence";
+	std::cout << "By!";
 }
 
-// Definations
-void bank_app() {
-	sign_in();
-}
-
-void sign_in() {
+void menu() {
+	print_menu();
 	
-	std::string user_input;
+	int chosen_menu_point = 0;
+	std::cin >> chosen_menu_point;
 
-	if (sign_in_attempt == 3) {
-		card_ejected();
+	switch(chosen_menu_point) {
+	case 1:
+		deposit();
+		break;
+	case 2:
+		withdraw();
+		break;
+	case 3:
+		balance();
+		break;
+	case 4: 
+		quit_func();
+		break;
+	default:
+		std::cout << "WTF??";
+	}
+
+	chosen_menu_point = 0;
+}
+
+void print_menu() {
+	std::cout << "\t\t\t\t\t\t\t Bro Bank \n";
+	std::cout << "------------------------------------------------------------------------------------------------------------------------\n";
+	std::cout << "1: Deposit \n";
+	std::cout << "2: Withdraw \n";
+	std::cout << "3: Check the balance \n";
+	std::cout << "4: Quit \n";
+	std::cout << "------------------------------------------------------------------------------------------------------------------------\n";
+}
+
+void deposit() {
+	int want_deposit = 0;
+	std::cout << "Please insert the money amount!: ";
+	std::cin >> want_deposit;
+	money += want_deposit;
+}
+
+void withdraw() {
+	int want_withdraw = 0;
+	std::cout << "Please insert the money amount!: ";
+	std::cin >> want_withdraw;
+	if (want_withdraw <= money) {
+		money -= want_withdraw;
 	}
 	else {
-		std::cout << "Plase insert your PIN Code: ";
-		std::cin >> user_input;
-
+		std::cout << "You are broke! xd";
 	}
-
-	
-
 }
 
+void balance() {
+	std::cout << "Money you have is: " << money;
+}
 
-void card_ejected() {
-	std::cout << "The card is ejected! \n";
-	std::cout << "* The user put the card again * \n";
-	sign_in();
+void quit_func() {
+	quit = true;
 }
