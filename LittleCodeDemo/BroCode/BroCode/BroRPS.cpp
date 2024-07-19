@@ -21,6 +21,7 @@ void evaluate(char c);
 bool game_loop = false;
 
 
+/*
 int main() {
 	std::cout << "\t\t\t\t\t\t\t BroRPS \n";
 	while (!game_loop) {
@@ -30,6 +31,7 @@ int main() {
 		evaluate(chossen_play);
 	}
 }
+*/
 
 void evaluate(char c) {
 	// 1 - Rock
