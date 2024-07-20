@@ -17,7 +17,47 @@ void basic_calculator_func();
 void is_it_even_or_odd();
 void random_number_between(int max);
 void guess_game();
+void dynamic_memory_example();
 
+template <typename T>
+T max(T x, T y);
+
+
+int main() {
+	dynamic_memory_example();
+
+	return 0;
+}
+
+
+
+template <typename T>
+T max(T x, T y) {
+	return (x > y) ? x : y;
+}
+
+
+void dynamic_memory_example() {
+	// In this case when we compile the program we have no idea how many 
+	int size;
+	int *nums = NULL;
+
+	std::cout << "How many numbers do you want to use: ";
+	std::cin >> size;
+
+	nums = new int[size];
+
+	for (int i = 0; i < size; i++) {
+		std::cin >> nums[i];
+	}
+
+	for (int i = 0; i < size; i++) {
+		std::cout << nums[i] << "\n";
+	}
+	
+	delete[] nums;
+
+}
 
 void hypotenuse_calculator_func() {
 	float a, b, c;
