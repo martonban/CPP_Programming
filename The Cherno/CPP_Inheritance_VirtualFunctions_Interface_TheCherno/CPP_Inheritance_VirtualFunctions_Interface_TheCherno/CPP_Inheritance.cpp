@@ -18,9 +18,11 @@ class Player : public Entity {
     }
 };
 
+/*
 int main() {
     Player player;
     player.Move(1.0f, 1.0f);
 
 
 }
+*/

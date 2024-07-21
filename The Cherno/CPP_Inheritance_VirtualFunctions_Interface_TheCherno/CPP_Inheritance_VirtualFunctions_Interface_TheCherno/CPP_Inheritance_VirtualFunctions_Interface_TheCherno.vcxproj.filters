@@ -18,5 +18,8 @@
     <ClCompile Include="CPP_Inheritance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CPP_VirtualFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
