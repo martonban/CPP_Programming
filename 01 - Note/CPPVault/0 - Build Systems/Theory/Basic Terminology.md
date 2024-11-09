@@ -1,0 +1,1 @@
+If you want to compile an application you need the followings
