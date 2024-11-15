@@ -1,5 +1,10 @@
 # C++ Programming Concepts
-This repository is my kinf of C++ resourses. Within this repository I added my C++ Obsidian Vault. Note this is not a tutorial or it does not have any educational purpose. So it is possible that in the note there are a lots of factual errors. So take everything with a grain of salt.
 
-# Getting Started
-If you want to 
+This repository serves as a personal playground for experimenting with C++ and refining my programming skills. I created a 
+note in Obsidian to showcase my deep understandig of every concepts.
+
+# Notes
+(Note)[01 - Note/CPPVault/Welcome.md]
+
+
+# Topics
