@@ -4,7 +4,7 @@ This repository serves as a personal playground for experimenting with C++ and r
 note in Obsidian to showcase my deep understandig of every concepts.
 
 # Notes
-(Note)[https://github.com/martonban/CPP_Programming/blob/main/01%20-%20Note/CPPVault/Welcome.md]
+[Note](https://github.com/martonban/CPP_Programming/blob/main/01%20-%20Note/CPPVault/Welcome.md)
 
 
 # Topics
