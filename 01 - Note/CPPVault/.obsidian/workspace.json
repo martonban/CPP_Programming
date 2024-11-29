@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "af90460b9fcec7b2",
+        "id": "070e6a69a2955732",
         "type": "tabs",
         "children": [
           {
-            "id": "bdd23c4ec97228a7",
+            "id": "ddaf0cf318321597",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "4 - OOP/[WIP] Abstract Classes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "[WIP] Abstract Classes"
             }
           }
         ]
@@ -158,24 +162,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bdd23c4ec97228a7",
+  "active": "ddaf0cf318321597",
   "lastOpenFiles": [
-    "1 - Build Systems/Build Systems.md",
     "1 - Build Systems/Theory/Building System in Visual Studio.md",
+    "1 - Build Systems/Theory/Basic Terminology.md",
     "1 - Build Systems/Practice/VS/Create an executable.md",
+    "2 - Basic Data Types/Basic Data Types.md",
+    "4 - OOP/[WIP] Abstract Classes.md",
+    "Welcome.md",
+    "Contents.md",
+    "0 - Catalog/Catalog.md",
+    "1 - Build Systems/Build Systems.md",
+    "4 - OOP",
+    "3 - Pointers",
+    "Media/Untitled",
+    "2 - Basic Data Types/Strings",
+    "2 - Basic Data Types",
     "Media/Képernyőkép 2024-11-16 200525.png",
     "Media",
     "legends.show_1731605256_3501281118628428622_8536329659.webp",
     "1 - Build Systems/Theory/Untitled.md",
-    "0 - Catalog/Catalog.md",
-    "1 - Build Systems/Theory/Basic Terminology.md",
     "1 - Build Systems/Practice/VS",
     "1 - Build Systems/Practice",
-    "Welcome.md",
-    "Contents.md",
     "0 - Catalog",
     "().md",
-    "1 - Build Systems/Theory",
-    "1 - Build Systems"
+    "1 - Build Systems/Theory"
   ]
 }
