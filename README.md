@@ -1,4 +1,6 @@
-# C++ Programming Concepts
+# [WIP] C++ Programming Concepts
+⚠️ WARNING! This repository is not yet finished. The descriptions and code found here are not complete. <br><br>
+
 
 This repository serves as a personal playground for experimenting with C++ and refining my programming skills. I created a 
 note in Obsidian to showcase my deep understandig of every concepts. Note this is not an education repository!
