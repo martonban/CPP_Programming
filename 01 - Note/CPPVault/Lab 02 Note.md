@@ -14,3 +14,9 @@ GCC Compiler Falgek
 -fsanitaze=adress - memory leakeket nézz
 
 SIMD
+
+
+
+unique_ptr 
+. a piointert használjuk
+-> az osztályt használjuk
