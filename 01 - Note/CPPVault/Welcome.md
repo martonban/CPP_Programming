@@ -8,7 +8,7 @@ This repository is a C++ reference repository. Not an educational or tutorial pr
 
 If you want to use this notes I highly reccomend you to download [Obsidian](https://obsidian.md/).  After the installation you can open this on the "Open folder as the Vault" option.
 
-In the [[Catalog]] you can find the small projects I did. Every project will have an own page. In this page you can find a short introduction a realtive path and some notes wich related to the project's topic, and some more resourse.
+In the [[Projects Catalog]] you can find the small projects I did. Every project will have an own page. In this page you can find a short introduction a realtive path and some notes wich related to the project's topic, and some more resourse.
 
 In the [[Contents]] will help you guide in the notes. Every folder will have a page, where you can find little notes. Notes can be showcase a code projects or multiple projects or just a theory notes.
 
